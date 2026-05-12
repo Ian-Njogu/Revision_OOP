@@ -7,7 +7,7 @@ public class Main {
 
         Sedan mySedan = new Sedan("Toyota", "Corolla", 2022, "Silver");
         
-        System.out.println("=== METHOD OVERRIDING Demo ===");
+        System.out.println("METHOD OVERRIDING Demo");
         System.out.println("Calling accelerate() via a Vehicle reference (polymorphism):");
 
         Vehicle vehicleRef = mySedan; // Upcasting to Vehicle
